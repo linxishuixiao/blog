@@ -1,6 +1,7 @@
 module.exports = {
   "title": "Ren's Blog",
   "description": "...",
+  base: '/blog/',
   "dest": "public",
   "plugins": [
     [
