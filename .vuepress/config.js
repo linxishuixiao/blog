@@ -10,9 +10,14 @@ module.exports = {
         theme: ['haruto'],
         clean: true,
         width: 150,
-        height: 220
+        height: 220,
+        modelStyle: {
+          left: '0',
+          bottom: '-20px',
+          opacity: '0.9'
+        }
       },
-      
+
     ],
     ["sakura", {
       num: 20, // 默认数量

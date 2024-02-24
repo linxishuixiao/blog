@@ -2,7 +2,7 @@
 home: true
 heroText: ARen's Blog.
 tagline: 一个猪头前端的个人博客❤
-# heroImage: /head.jpeg
+heroImage: /head.jpeg
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',
@@ -18,7 +18,7 @@ heroImageStyle:
     borderRadius: "50%",
     boxShadow: "0 15px 18px rgba(0,0,0,0.2)",
   } 
-bgImage: '/bj02.jpg'
+# bgImage: '/bj02.jpg'
 bgImageStyle: {
   height: '100vh',
 }
@@ -37,10 +37,6 @@ features:
 
 <style>
 
-p,h1{
-  color:white;
-  /* font-size:2em; */
-}
 
 @keyframes bounce-in{
   0%{transform:translateY(0)}
