@@ -320,3 +320,6 @@ reader.onload=function() {
 - `send()` 使用连接发送数据
 - `close()` 关闭连接
 
+<template>
+  <Vssue :issue-id="228" />
+</template>

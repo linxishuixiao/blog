@@ -12,6 +12,8 @@
   },
   "description": "...",
   "dependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "@vuepress-reco/vuepress-plugin-bulletin-popover": "^1.6.16",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "github:vuepress-reco/vuepress-plugin-kan-ban-niang",
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.17",

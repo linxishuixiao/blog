@@ -20,6 +20,15 @@ module.exports = {
       },
 
     ],
+    // ['@vssue/vuepress-plugin-vssue',
+    //   {
+    //     platform: 'github',
+    //     owner: 'linxishuixiao',
+    //     repo: 'blog',
+    //     clientId: 'cefc6b5121bb38cce2a4',
+    //     clientSecret: '2f8650e0e8d373bda3e8e80e3b2dc67b6a8d6400',
+    //     autoCreateIssue:true
+    //   }],
     ["sakura", {
       num: 20, // 默认数量
       show: true, // 是否显示
@@ -185,12 +194,9 @@ module.exports = {
     "authorAvatar": "/head.jpeg",
     "record": "xxxx",
     "startYear": "2023",
-    "vssueConfig": {
-      platform: 'github',
-      owner: 'OWNER_OF_REPO',
-      repo: 'NAME_OF_REPO',
-      clientId: 'cefc6b5121bb38cce2a4',
-      clientSecret: '2f8650e0e8d373bda3e8e80e3b2dc67b6a8d6400',
+    "valineConfig": {
+      appId: 'SGL2wCrsWFGmF0jEWLWhrd0O-gzGzoHsz',// your appId
+      appKey: 'vIPQE3mQA9TqgNKXnwbkN6Bs', // your appKey
     }
   },
   "markdown": {

@@ -7,14 +7,13 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd public
 
 git init
-git add -A
+git add .
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f coding.net master:blog-page
-
+git push -f coding.net master
+git subtree push --prefix public coding.net master:blog-page
 cd -
 
