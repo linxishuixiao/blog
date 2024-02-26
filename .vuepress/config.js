@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog/',
+  "base": '/blog/',
   "title": "Ren's Blog",
   "description": "...",
   "dest": "public",
@@ -184,7 +184,14 @@ module.exports = {
     "author": "Ren",
     "authorAvatar": "/head.jpeg",
     "record": "xxxx",
-    "startYear": "2023"
+    "startYear": "2023",
+    "vssueConfig": {
+      platform: 'github',
+      owner: 'OWNER_OF_REPO',
+      repo: 'NAME_OF_REPO',
+      clientId: 'cefc6b5121bb38cce2a4',
+      clientSecret: '2f8650e0e8d373bda3e8e80e3b2dc67b6a8d6400',
+    }
   },
   "markdown": {
     "lineNumbers": true
