@@ -1,6 +1,6 @@
 module.exports = {
   "base": '/blog/',
-  "title": "Ren's Blog",
+  "title": "Doggy And Piggy🐟",
   "description": "...",
   "dest": "public",
   "plugins": [
@@ -122,33 +122,39 @@ module.exports = {
   "themeConfig": {
     "nav": [
       {
-        "text": "主页",
+        "text": "丑陋的主页",
         "link": "/",
         "icon": "reco-home"
       },
       {
-        "text": "时间条",
+        "text": "无用的时间条",
         "link": "/timeline/",
         "icon": "reco-date"
       },
       {
-        "text": "文档",
+        "text": "低脂的文档",
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
+            "text": "vuepress-theme-reco",
             "link": "/docs/theme-reco/"
           }
         ]
       },
       {
-        "text": "与我联系",
+        "text": "别和我联系",
         "icon": "reco-message",
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/linxishuixiao/blog",
             "icon": "reco-github"
+          }
+          ,
+          {
+            "text": "Gitee",
+            "link": "https://gitee.com/smailfish/blog",
+            "icon": "reco-mayun"
           }
         ]
       }
@@ -165,11 +171,11 @@ module.exports = {
     "blogConfig": {
       "category": {
         "location": 4,
-        "text": "分类"
+        "text": "奇怪的分类"
       },
       "tag": {
         "location": 3,
-        "text": "标签"
+        "text": "无语的标签"
       }
     },
     "friendLink": [
@@ -190,7 +196,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "Ren",
+    "author": "Doggy And Piggy🐟",
     "authorAvatar": "/head.jpeg",
     "record": "xxxx",
     "startYear": "2023",

@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: ARen's Blog.
-tagline: 一个猪头前端的个人博客❤
+heroText: Doggy And Piggy🐟
+tagline: When three know it, all know it.
 heroImage: /head.jpeg
 # heroImageStyle: {
 #   maxWidth: '600px',
