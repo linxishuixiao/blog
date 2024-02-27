@@ -1,7 +1,7 @@
 ---
 home: true
-# heroText: Doggy And Piggy🐟
-tagline: When three know it, all know it.
+heroText: 🌿
+tagline: I hope you make the best of it.
 heroImage: /head.jpeg
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -19,7 +19,7 @@ heroImageStyle:
     borderRadius: "50%",
     boxShadow: "0 15px 18px rgba(0,0,0,0.2)",
   } 
-# bgImage: '/bj02.jpg'
+bgImage: '/bg5.jpg'
 bgImageStyle: {
   height: '100vh',
 }
@@ -39,6 +39,9 @@ features:
 
 <style>
 
+p.description{
+  color:white
+}
 
 @keyframes bounce-in{
   0%{transform:translateY(0)}
@@ -99,12 +102,14 @@ export default {
       this.scrollFn();
     })
   },
-
   methods: {
     scrollFn() {
       const windowH = document.getElementsByClassName('hero')[0].clientHeight; // 获取窗口高度
       document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
-    }
+    },
+
+
+
   }
 }
 </script>

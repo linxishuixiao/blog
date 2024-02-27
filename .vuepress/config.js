@@ -11,7 +11,7 @@ module.exports = {
         theme: ['haruto'],
         clean: true,
         width: 150,
-        height: 220,
+        height: 180,
         modelStyle: {
           left: '0',
           bottom: '-20px',
