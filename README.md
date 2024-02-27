@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Doggy And Piggy🐟
+# heroText: Doggy And Piggy🐟
 tagline: When three know it, all know it.
 heroImage: /head.jpeg
 # heroImageStyle: {
@@ -13,6 +13,7 @@ heroImage: /head.jpeg
 # }
 heroImageStyle:
   {
+    color: "white",
     maxHeight: "150px",
     display: block,
     borderRadius: "50%",

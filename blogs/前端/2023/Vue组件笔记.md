@@ -7,6 +7,10 @@ categories:
  - 前端
 ---
 
+![img](https://pic1.zhimg.com/70/v2-73aef8cfeee9878b2de33c68216d13f3_1440w.avis?source=172ae18b&biz_tag=Post)
+
+<!-- more -->
+
 ## 组件注册
 
 ### 组件名
@@ -39,9 +43,7 @@ new Vue({
 ```
 
 ### 模块系统
-
-#### 在模块系统中局部注册
-
+在模块系统中局部注册
 ```javascript
 import ComponentA from './ComponentA'
 
@@ -120,21 +122,7 @@ requireComponent.keys().forEach(fileName => {
 
 - 单向数据流: 父组件更新时子组件中的prop也会随之更新, 但在子组件中无法直接更新prop的值
 
-- Prop验证:
-
-   
-
-  ```
-  props
-  ```
-
-  属性可以接受一个带有验证需求的对象
-
-  type支持
-
-  ```
-  String、Number、Boolean、Array、Object、Date、Function、Symbol
-  ```
+- Prop验证: `props` 属性可以接受一个带有验证需求的对象type支持 `String、Number、Boolean、Array、Object、Date、Function、Symbol`
 
   ```javascript
   props: {
@@ -169,12 +157,10 @@ requireComponent.keys().forEach(fileName => {
     }
   }
   ```
+::: tip Tip
+prop 会在一个组件实例创建之前进行验证，所以实例的属性 (如 data、computed 等) 在 default 或 validator 函数中是不可用的。
+:::
 
-  
-
-  TIP
-
-  prop 会在一个组件实例创建之前进行验证，所以实例的属性 (如 data、computed 等) 在 default 或 validator 函数中是不可用的。
 
 ## 非Prop的Attribute
 

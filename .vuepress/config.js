@@ -76,12 +76,14 @@ module.exports = {
     ['@vuepress-reco/vuepress-plugin-pagation', {
       perPage: 5  // 每页展示条数
     }],
+    ["vuepress-plugin-boxx"],
+    ['@vuepress-reco/vuepress-plugin-loading-page'],
     // ["vuepress-plugin-nuggets-style-copy", {
     //   copyText: "copy",
     //   tip: {
     //     content: "复制成功!"
     //   }
-    // }]
+    // }],
     // ['@vuepress-reco/vuepress-plugin-bulletin-popover', {
     //   width: '300px', // 默认 260px
     //   title: '一则消息',
@@ -98,6 +100,7 @@ module.exports = {
     // }]
   ],
   "head": [
+    // ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
     [
       "link",
       {
@@ -198,7 +201,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "Doggy And Piggy🐟",
     "authorAvatar": "/head.jpeg",
-    "record": "xxxx",
+    // "record": "xxxx",
     "startYear": "2023",
     "valineConfig": {
       appId: 'SGL2wCrsWFGmF0jEWLWhrd0O-gzGzoHsz',// your appId
